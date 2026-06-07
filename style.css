@@ -184,8 +184,10 @@ span{
 .hero-section{
     background-image: url(images/hero_section.jpg);
     background-size: cover;
+    background-position: center;
     height: 400px;
-    width: 1500px;
+    width: 100%;
+    max-width: 1500px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -194,7 +196,7 @@ span{
 .hero-message{
     background-color: white;
     height: 40px;
-    width: 80%;
+    width: 90%;
     font-size: 0.85rem;
     display: flex;
     justify-content: center;
@@ -209,33 +211,36 @@ span{
 
 /** shop section **/
 .shop-background{
-    height: 760px;
-    width: 1500px;
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
     background-image: url(images/shop-background.png);
     background-size: cover;
-    position: relative;
-    left: 183px;
-    }
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 16px 60px;
+}
 
 .shop-section{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 20px;
+    width: min(1200px, 100%);
+    margin: 0 auto;
 }
 
 .box-content{
-    margin-left: 20px;
-    margin-right: 20px;
-
+    margin: 0 20px;
 }
 
 .shop-boxes{
-    height: 350px;
-    width: 350px;
+    flex: 1 1 320px;
+    max-width: 350px;
+    min-width: 260px;
     background-color: white;
-    padding: 20px 0px 15px;
+    padding: 20px 0 15px;
     margin-top: 20px;
-
 }
 
 .shop-boxes a{
