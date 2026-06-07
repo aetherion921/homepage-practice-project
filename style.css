@@ -32,7 +32,7 @@ body{
 }
 
 .logo{
-    background-image: url(/images/amazon.png);
+    background-image: url(images/amazon.png);
     height: 100%;
     width: 100%;
     background-size:cover;
@@ -182,7 +182,7 @@ span{
 }
 
 .hero-section{
-    background-image: url(/images/hero_section.jpg);
+    background-image: url(images/hero_section.jpg);
     background-size: cover;
     height: 400px;
     width: 1500px;
@@ -211,7 +211,7 @@ span{
 .shop-background{
     height: 760px;
     width: 1500px;
-    background-image: url(/images/shop-background.png);
+    background-image: url(images/shop-background.png);
     background-size: cover;
     position: relative;
     left: 183px;
@@ -308,7 +308,7 @@ footer{
 }
 
 .logo-bottom{
-    background-image: url(/images/bottom-logo.png);
+    background-image: url(images/bottom-logo.png);
     height: 50px;
     width: 113px;
     background-size:cover;
